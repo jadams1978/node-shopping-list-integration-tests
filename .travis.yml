@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: zk2ovj2oOsypZktX5f2z+fKNsiuw01UZY/Pk6XsitB9s7J2P5nLwsJcKd/0Wj40eqGf+Whar+DTqkr8gQ7fc6dbcJ1QBP7gata2yX3QgN/0WHigANFUSUUBZl9J/a/bb+ndel1aatq0Had1ZQQwfTQ3fvGL5Ct1/SeaE3yT/r2c0nlTckfjGki7CIVrlpDetsjk3Ik0PRQPB7cj/YiO4UFctakRNit8l+VRdqqFkMK/6yB64YtD/EVFhfc+jSwN5epvybK2l8r4x/lu773LB8M6S7zuTjk1wncsiyUuJYWOATkQgKRNdgzUrAFmrt5t2VMwb5WMnJah3fBjHQ5EP8I579ju/BxYbR/lDGDDl7H9V4B+ZDruDKI+qPpBE6Eue3y6LN54gpDCi173nIQO7DG9d3YdN3CBpgqB/qkrHmPoavMhBX/Oc+cNjuAl3zvdzLesIhYgt7TiPOPB7WOwN28exhLAChxTuUGfFwHmiLti0Qbp+1ja535+SFIp0Cp/a02AtWo3EfrNDZuFe2/Jw+DiPlzmw5zBaXLX0A6NsfgjTrMdyzCbQInZEMuQBcGiYU/jCEHwP6vHRbGROsMytmm9ZIDdfRLdPnfF0JmKw/joXxklieInBK0LdQzEj5+RrTHLFeTH/2ntCrIk/h/wsBR5fGq9LA2SUZuNRVWvsc5M=
+  app: limitless-dawn-98759
+  on:
+    repo: jadams1978/node-shopping-list-integration-tests
